@@ -4,3 +4,5 @@ All projects from FreeCodeCamp's Responsive Web Design certification
 
 - [Cat Photo App](https://naisha-kohli.github.io/responsive-web-design/Cat%20photo%20app/)
 - [Cafe Menu](https://naisha-kohli.github.io/responsive-web-design/Cafe%20Menu/)
+- [Registration Form](https://naisha-kohli.github.io/responsive-web-design/registration%20form/)
+
