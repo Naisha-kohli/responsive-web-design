@@ -6,4 +6,5 @@ All projects from FreeCodeCamp's Responsive Web Design certification
 - [Cafe Menu](https://naisha-kohli.github.io/responsive-web-design/Cafe%20Menu/)
 - [Registration Form](https://naisha-kohli.github.io/responsive-web-design/registration%20form/)
 - [Mental Health Survey](https://naisha-kohli.github.io/responsive-web-design/Mental%20health%20survey/)
+- [Tribute Page](https://naisha-kohli.github.io/responsive-web-design/Tribute%20Page/)
 
