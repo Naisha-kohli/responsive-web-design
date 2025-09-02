@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LeafSense — Smart Plant Pot</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Sticky Header (required) ===== -->
+  <header id="header">
+    <div class="brand">
+      <!-- Must live inside #header and src must start with http/https -->
+      <img
+        id="header-img"
+        alt="LeafSense logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Leaf_icon_02.svg"
+      />
+      <span>LeafSense</span>
+    </div>
+
+    <!-- ===== Nav Bar (required inside header) ===== -->
+    <nav id="nav-bar">
+      <a class="nav-link" href="#hero">Home</a>
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#how-it-works">How it works</a>
+      <a class="nav-link" href="#specs">Specs</a>
+      <a class="nav-link" href="#pricing">Pricing</a>
+      <a class="nav-link" href="#contact">Get Updates</a>
+    </nav>
+  </header>
+
+  <!-- Spacer to offset fixed header -->
+  <div class="header-spacer" aria-hidden="true"></div>
+
+  <!-- ===== Hero / CTA ===== -->
+  <section id="hero" class="section hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1>Make Your Plants <em>Thrive</em>, Automatically.</h1>
+        <p class="sub">
+          LeafSense is an AI-assisted smart pot with moisture, light, and temperature sensors.
+          It waters when needed and guides you with simple tips.
+        </p>
+
+        <!-- ===== Form (required) ===== -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email for early access"
+            required
+          />
+          <input id="submit" type="submit" value="Notify Me" />
+        </form>
+      </div>
+
+      <div class="hero-visual">
+        <!-- Relevant, sharp product/plant image (Unsplash) -->
+        <img
+          class="hero-img"
+          src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1400&auto=format&fit=crop"
+          alt="Smart plant pot on a modern desk"
+          loading="eager"
+        />
+        <div class="glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Features (flex/grid) ===== -->
+  <section id="features" class="section features">
+    <h2>Why LeafSense?</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Auto-Watering</h3>
+        <p>Built-in reservoir and pump water your plant only when soil moisture drops below ideal levels.</p>
+      </article>
+      <article class="card">
+        <h3>Smart Sensing</h3>
+        <p>Moisture, light, and temperature sensors continuously learn your plant’s needs.</p>
+      </article>
+      <article class="card">
+        <h3>Guided Care</h3>
+        <p>Get simple, timely nudges: rotate for light, refill water, or adjust placement.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== How it works (video required) ===== -->
+  <section id="how-it-works" class="section how">
+    <h2>How It Works</h2>
+    <p class="how-copy">
+      Sensors → AI model → action. LeafSense reads moisture and light, predicts needs, and waters or notifies you.
+    </p>
+
+    <!-- Reliable, relevant plant video (MDN CC0 demo footage) -->
+    <div class="video-wrap">
+      <video
+        id="video"
+        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+        controls
+        playsinline
+        poster="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop"
+      >
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+    </div>
+  </section>
+
+  <!-- ===== Specs ===== -->
+  <section id="specs" class="section specs">
+    <h2>Technical Specs</h2>
+    <div class="spec-grid">
+      <div class="spec">
+        <h4>Sensors</h4>
+        <p>Capacitive soil moisture, ambient light, temp</p>
+      </div>
+      <div class="spec">
+        <h4>Water</h4>
+        <p>1L reservoir, quiet micro-pump, anti-clog</p>
+      </div>
+      <div class="spec">
+        <h4>Connectivity</h4>
+        <p>Bluetooth LE + optional Wi-Fi bridge</p>
+      </div>
+      <div class="spec">
+        <h4>Power</h4>
+        <p>USB-C, 6 months per charge with smart sleep</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Pricing ===== -->
+  <section id="pricing" class="section pricing">
+    <h2>Choose Your Pot</h2>
+    <div class="tiers">
+      <div class="tier">
+        <h3>Starter</h3>
+        <p class="price">$79</p>
+        <ul>
+          <li>Moisture sensor</li>
+          <li>Manual tips</li>
+          <li>USB-C charging</li>
+        </ul>
+        <a href="#contact" class="btn">Pre-Order</a>
+      </div>
+      <div class="tier featured">
+        <h3>Smart</h3>
+        <p class="price">$129</p>
+        <ul>
+          <li>All sensors</li>
+          <li>Auto-watering</li>
+          <li>App guidance</li>
+        </ul>
+        <a href="#contact" class="btn">Pre-Order</a>
+      </div>
+      <div class="tier">
+        <h3>Pro</h3>
+        <p class="price">$179</p>
+        <ul>
+          <li>Advanced AI tuning</li>
+          <li>Wi-Fi bridge</li>
+          <li>Large reservoir</li>
+        </ul>
+        <a href="#contact" class="btn">Pre-Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact / Email (extra anchor) ===== -->
+  <section id="contact" class="section contact">
+    <h2>Get Launch Updates</h2>
+    <p>Join the waitlist and be first to know when LeafSense ships.</p>
+    <form class="inline-form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <input type="email" name="email" placeholder="Your email" required />
+      <input type="submit" value="Subscribe" />
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> LeafSense — Smart Plant Pot</p>
+  </footer>
+
+  <!-- Optional for local/CodePen testing -->
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+
+  <script>
+    // Update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Interactive glow following mouse (subtle animation)
+    const glow = document.querySelector('.glow');
+    window.addEventListener('mousemove', (e) => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+      glow.style.setProperty('--mx', x + '%');
+      glow.style.setProperty('--my', y + '%');
+    });
+  </script>
+</body>
+</html>
