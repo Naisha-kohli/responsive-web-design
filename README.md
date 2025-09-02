@@ -8,5 +8,6 @@ All projects from FreeCodeCamp's Responsive Web Design certification
 - [Mental Health Survey](https://naisha-kohli.github.io/responsive-web-design/Mental%20health%20survey/)
 - [Tribute Page](https://naisha-kohli.github.io/responsive-web-design/Tribute%20Page/)
 - [Technical Documentation Page](https://naisha-kohli.github.io/responsive-web-design/Technical%20Documentation%20Page/)
+- [Product Landing Page](https://naisha-kohli.github.io/responsive-web-design/Product%20Landing%20Page/)
 
 
